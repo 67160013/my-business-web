@@ -13,16 +13,26 @@ my-business-web/
 ├── about.html
 ├── services.html
 ├── contact.html
-├── images/
-│ ├── logo1.png
-│ ├── cake.png
-│ ├── drink.png
-│ ├── gift.png
-│ ├── team1.png
-│ ├── team2.png
-│ ├── team3.png
-│ └── ...
-└── README.md
+├── README.md
+├── home.png
+├── home2.png
+├── about1.png
+├── about2.png
+├── about3.png
+├── Contact1.png
+├── Contact2.png
+├── Contact3.png
+├── Contact4.png
+├── menu1.png
+├── menu2.png
+├── menu3.png
+├── cake.png
+├── drink.png
+├── gift.png
+├── logo1.png
+├── team1.png
+├── team2.png
+└── team3.png
 
 ---
 
@@ -31,24 +41,24 @@ my-business-web/
 > _เพิ่มภาพหน้าจอของแต่ละหน้าเว็บไซต์ที่นี่_
 
 ### ⭐ หน้า Home (index.html)
-![Home Screenshot](images/home.png)
-![Home Screenshot](images/home2.png)
+![Home Screenshot](home.png)
+![Home Screenshot](home2.png)
 
 ### ⭐ หน้า About (about.html)
-![About Screenshot](images/about1.png)
-![About Screenshot](images/about2.png)
-![About Screenshot](images/about3.png)
+![About Screenshot](about1.png)
+![About Screenshot](about2.png)
+![About Screenshot](about3.png)
 
 ### ⭐ หน้า Services (services.html)
-![Services Screenshot](images/menu1.png)
-![Services Screenshot](images/menu2.png)
-![Services Screenshot](images/menu3.png)
+![Services Screenshot](menu1.png)
+![Services Screenshot](menu2.png)
+![Services Screenshot](menu3.png)
 
 ### ⭐ หน้า Contact (contact.html)
-![Contact Screenshot](images/Contact1.png)
-![Contact Screenshot](images/Contact2.png)
-![Contact Screenshot](images/Contact3.png)
-![Contact Screenshot](images/Contact4.png)
+![Contact Screenshot](Contact1.png)
+![Contact Screenshot](Contact2.png)
+![Contact Screenshot](Contact3.png)
+![Contact Screenshot](Contact4.png)
 
 ---
 
@@ -64,5 +74,6 @@ my-business-web/
   รายการบริการทั้งหมด เช่น เค้ก เครื่องดื่ม ของขวัญ พร้อมรูปและคำอธิบายบริการ
 
 - **[ติดต่อเรา – contact.html](contact.html)**
-  ฟอร์มติดต่อ ข้อมูลที่อยู่ เบอร์โทร อีเมล และแผนที่ Google Maps`
+  ฟอร์มติดต่อ ข้อมูลที่อยู่ เบอร์โทร อีเมล และแผนที่ Google Maps
+
 ```
