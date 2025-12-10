@@ -30,40 +30,39 @@ my-business-web/
 
 > _เพิ่มภาพหน้าจอของแต่ละหน้าเว็บไซต์ที่นี่_
 
-- หน้า Home (index.html)
-  ![Home Screenshot](home.png)
-  ![Home Screenshot](home2.png)
+### ⭐ หน้า Home (index.html)
+![Home Screenshot](images/home.png)
+![Home Screenshot](images/home2.png)
 
-- หน้า About (about.html)
-  ![About Screenshot](about1.png)
-  ![About Screenshot](about2.png)
-  ![About Screenshot](about3.png)
+### ⭐ หน้า About (about.html)
+![About Screenshot](images/about1.png)
+![About Screenshot](images/about2.png)
+![About Screenshot](images/about3.png)
 
-- หน้า Services (services.html)
-  ![Services Screenshot](menu1.png)
-  ![Services Screenshot](menu2.png)
-  ![Services Screenshot](menu3.png)
+### ⭐ หน้า Services (services.html)
+![Services Screenshot](images/menu1.png)
+![Services Screenshot](images/menu2.png)
+![Services Screenshot](images/menu3.png)
 
-- หน้า Contact (contact.html)
-  ![Contact Screenshot](contact1.png)
-  ![Contact Screenshot](contact2.png)
-  ![Contact Screenshot](contact3.png)
-  ![Contact Screenshot](contact4.png)
+### ⭐ หน้า Contact (contact.html)
+![Contact Screenshot](images/Contact1.png)
+![Contact Screenshot](images/Contact2.png)
+![Contact Screenshot](images/Contact3.png)
+![Contact Screenshot](images/Contact4.png)
 
 ---
 
 ## 🔗 ลิงก์เข้าสู่แต่ละหน้า (Navigation Links)
 
 - **[หน้าแรก – index.html](index.html)**
-  แสดงภาพรวมของร้าน Sweetie House แบนเนอร์ เมนู และบริการยอดนิยม
+  แสดงภาพรวมของร้าน Sweetie House เช่น แบนเนอร์ เมนูยอดนิยม และโปรโมชั่น
 
 - **[เกี่ยวกับเรา – about.html](about.html)**
-  อธิบายประวัติร้าน แนวคิด และสมาชิกทีมงาน
+  อธิบายประวัติของร้าน แนวคิด ภาพรวมธุรกิจ และสมาชิกทีมงาน
 
 - **[บริการ – services.html](services.html)**
-  รายการบริการทั้งหมด เช่น เค้ก เครื่องดื่ม ของขวัญ พร้อมรูปประกอบ
+  รายการบริการทั้งหมด เช่น เค้ก เครื่องดื่ม ของขวัญ พร้อมรูปและคำอธิบายบริการ
 
 - **[ติดต่อเรา – contact.html](contact.html)**
-  ฟอร์มติดต่อ ข้อมูลที่อยู่ และแผนที่ Google Maps เพื่อให้ลูกค้าเดินทางได้สะดวก
-
+  ฟอร์มติดต่อ ข้อมูลที่อยู่ เบอร์โทร อีเมล และแผนที่ Google Maps`
 ```
