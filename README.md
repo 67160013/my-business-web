@@ -7,7 +7,6 @@
 
 ## 📁 โครงสร้างไฟล์ (File Structure)
 
-```
 my-business-web/
 ├── index.html
 ├── about.html
@@ -41,20 +40,23 @@ my-business-web/
 > _เพิ่มภาพหน้าจอของแต่ละหน้าเว็บไซต์ที่นี่_
 
 ### ⭐ หน้า Home (index.html)
-![Home Screenshot](home.png)
-![Home Screenshot](home2.png)
+
+![Home]/home.png)
 
 ### ⭐ หน้า About (about.html)
+
 ![About Screenshot](about1.png)
 ![About Screenshot](about2.png)
 ![About Screenshot](about3.png)
 
 ### ⭐ หน้า Services (services.html)
+
 ![Services Screenshot](menu1.png)
 ![Services Screenshot](menu2.png)
 ![Services Screenshot](menu3.png)
 
 ### ⭐ หน้า Contact (contact.html)
+
 ![Contact Screenshot](Contact1.png)
 ![Contact Screenshot](Contact2.png)
 ![Contact Screenshot](Contact3.png)
@@ -75,5 +77,3 @@ my-business-web/
 
 - **[ติดต่อเรา – contact.html](contact.html)**
   ฟอร์มติดต่อ ข้อมูลที่อยู่ เบอร์โทร อีเมล และแผนที่ Google Maps
-
-```
