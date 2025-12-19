@@ -1,0 +1,268 @@
+/* ================================
+   UNIVERSAL SELECTOR (*)
+   ================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================================
+   ELEMENT SELECTORS
+   ================================ */
+
+/* Body */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #3a210f;
+  background-color: #fffaf8;
+}
+
+/* Heading */
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #902b20;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #8B4513;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #356360;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #3a210f;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #453326;
+}
+
+/* ================================
+   CONTAINER
+   ================================ */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ================================
+   ID SELECTORS (#)
+   ================================ */
+#header {
+  background-color: #356360;
+  padding: 20px;
+}
+
+#footer {
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* ================================
+   CLASS SELECTORS (.)
+   ================================ */
+
+/* Logo */
+.logo {
+  height: 80px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #FFE4E1;
+  padding: 2rem 2rem;
+  text-align: center;
+  color: #902b20;
+}
+
+/* Intro */
+.intro {
+  font-size: 1.2em;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+/* Highlight text */
+.highlight {
+  background-color: hsl(47, 100%, 93%);
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: #5f4d18;
+  font-weight: bold;
+}
+
+/* Section spacing */
+.section {
+  padding: 4rem 2rem;
+}
+
+/* Services layout */
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* Card */
+.card {
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ================================
+   BUTTON
+   ================================ */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #356360;
+  color: #ffffff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: #2b514f;
+  transform: translateY(-2px);
+}
+
+/* ================================
+   NAVIGATION
+   ================================ */
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.nav-menu a {
+  color: #8B4513;
+  font-weight: bold;
+}
+
+/* ================================
+   ATTRIBUTE SELECTORS
+   ================================ */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #356360;
+  box-shadow: 0 0 5px rgba(53,99,96,0.6);
+}
+
+/* ================================
+   PSEUDO-CLASS SELECTORS
+   ================================ */
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #902b20;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #3a210f;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+/* ================================
+   TEXT & COLOR UTILITIES
+   ================================ */
+.text-primary {
+  color: #902b20;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ================================
+   TABLE
+   ================================ */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table th,
+.table td {
+  padding: 16px;
+  border: 1px solid #EBD4D4;
+}
+
+.table thead tr {
+  background-color: #F4C2C2;
+}
+
+.table-price {
+  background-color: #FDECEC;
+  font-weight: bold;
+}
