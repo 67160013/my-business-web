@@ -18,18 +18,27 @@ my-business-web/
 │ └── styles.css
 │
 ├── images/
-│ ├── logo1.png
-│ ├── home.png
-│ ├── home2.png
-│ ├── about1.png
-│ ├── about2.png
-│ ├── about3.png
-│ ├── menu1.png
-│ ├── menu2.png
-│ ├── menu3.png
-│ ├── cake.png
-│ ├── drink.png
-│ ├── gift.png
+│ ├── logo/
+│ │ └── logo1.png
+│ │
+│ ├── home/
+│ │ ├── home.png
+│ │ └── home2.png
+│ │
+│ ├── about/
+│ │ ├── about1.png
+│ │ ├── about2.png
+│ │ └── about3.png
+│ │
+│ ├── services/
+│ │ ├── menu1.png
+│ │ ├── menu2.png
+│ │ ├── menu3.png
+│ │ ├── cake.png
+│ │ ├── drink.png
+│ │ └── gift.png
+│ │
+│ └── team/
 │ ├── team1.png
 │ ├── team2.png
 │ └── team3.png
