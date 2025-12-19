@@ -13,29 +13,33 @@ my-business-web/
 ├── about.html
 ├── services.html
 ├── contact.html
-├── css/
-│   └── styles.css
-├── images/
-│   ├── hero-img.jpg
-│   ├── bakery.webp
-│   ├── barista
-│   ├── cafe logo.png
-│   ├── cafe.jpg
-│   ├── co working.jpg
-│   ├── manager
-│   ├── คนทำเบเกอรี่.jpg
-│   ├── กาแฟ.jpg
-│   ├── เครื่องดื่ม.jpg
-│   ├── เบเกอรี่.jpg
-│   ├── เมล็ดกาแฟ.jpg
-│   ├── Screenshot 2025-12-19 213413.png
-│   ├── Screenshot 2025-12-19 213444.png
-│   ├── Screenshot 2025-12-19 213548.png
-│   ├── Screenshot 2025-12-19 213614.png
-│   ├── Screenshot 2025-12-19 213624.png
-│   ├── Screenshot 2025-12-19 213652.png
-│   └── Screenshot 2025-12-19 213718.png
-└── README.md
+├── styles.css
+├── README.md
+│
+├── logo1.png
+├── home.png
+├── home2.png
+│
+├── about1.png
+├── about2.png
+├── about3.png
+│
+├── menu1.png
+├── menu2.png
+├── menu3.png
+├── cake.png
+├── drink.png
+├── gift.png
+│
+├── team1.png
+├── team2.png
+├── team3.png
+│
+├── Contact1.png
+├── Contact2.png
+├── Contact3.png
+└── Contact4.png
+
 
 
 ```
