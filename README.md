@@ -13,25 +13,41 @@ my-business-web/
 ├── services.html
 ├── contact.html
 ├── README.md
-├── home.png
-├── home2.png
-├── about1.png
-├── about2.png
-├── about3.png
-├── Contact1.png
-├── Contact2.png
-├── Contact3.png
-├── Contact4.png
-├── menu1.png
-├── menu2.png
-├── menu3.png
-├── cake.png
-├── drink.png
-├── gift.png
-├── logo1.png
-├── team1.png
-├── team2.png
-└── team3.png
+│
+├── css/
+│ └── styles.css
+│
+├── images/
+│ ├── home/
+│ │ ├── home.png
+│ │ └── home2.png
+│ │
+│ ├── about/
+│ │ ├── about1.png
+│ │ ├── about2.png
+│ │ └── about3.png
+│ │
+│ ├── contact/
+│ │ ├── Contact1.png
+│ │ ├── Contact2.png
+│ │ ├── Contact3.png
+│ │ └── Contact4.png
+│ │
+│ ├── services/
+│ │ ├── menu1.png
+│ │ ├── menu2.png
+│ │ ├── menu3.png
+│ │ ├── cake.png
+│ │ ├── drink.png
+│ │ └── gift.png
+│ │
+│ ├── team/
+│ │ ├── team1.png
+│ │ ├── team2.png
+│ │ └── team3.png
+│ │
+│ └── logo/
+│ └── logo1.png
 
 ---
 
