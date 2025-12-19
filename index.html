@@ -5,86 +5,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sweetie House</title>
+    <link rel="stylesheet" href="styles.css" /> 
 </head>
 
 <body>
 
-    <header style="background-color: #356360; padding: 20px; text-align: center;">
-        <div>
-            <img src="logo1.png" alt="โลโก้บริษัท" height="300" style="display: block; margin: 0 auto;">
-        </div>
+    <header id="header">       
+            <img src="logo1.png" alt="โลโก้บริษัท" class="logo">
     </header>
 
     <!-- Navigation Menu (ข้อ 1.2) -->
-    <nav style="text-align: center; margin-top: 30px;">
-        <a href="index.html" style="margin: 0 35px; text-decoration: none; color: #8B4513; font-weight: bold;">หน้าแรก</a>
-        <a href="about.html" style="margin: 0 35px; text-decoration: none; color: #8B4513; font-weight: bold;">เกี่ยวกับเรา</a>
-        <a href="services.html" style="margin: 0 35px; text-decoration: none; color: #8B4513; font-weight: bold;">บริการ</a>
-        <a href="contact.html" style="margin: 0 35px; text-decoration: none; color: #8B4513; font-weight: bold;">ติดต่อ</a>
+    <nav class="nav-menu">
+        <a href="index.html">หน้าแรก</a>
+        <a href="about.html">เกี่ยวกับเรา</a>
+        <a href="services.html">บริการ</a>
+        <a href="contact.html">ติดต่อ</a>
     </nav>
 
-    <main>
+    <main class="container">
         <!-- 1.3 Hero Section -->
-        <section 
-            style="
-                background-color: #FFE4E1;
-                padding: 30px 20px;
-                text-align: center;
-                margin-top: 20px;
-                color: #902b20;
-            ">
-            <h1 style="font-size: 50px; margin-bottom: 15px;">
-                Welcome to Sweetie House
-            </h1>
-
-            <p style="font-size: 22px; max-width: 600px; margin: 0 auto;">
+        <section class="hero">
+            <h1>Welcome to Sweetie House</h1>
+            <p class="intro">
                 บ้านแห่งความหวาน ที่พร้อมเสิร์ฟขนมอร่อย สดใหม่ทุกวัน
+                <span class="highlight">ขนมอร่อย สดใหม่ทุกวัน</span>
             </p>
         </section>
 
         <!-- 1.4 Featured Services -->
         <section>
-            <h2 style="font-size: 36px; text-align: center; color: #3a210f ">บริการของเรา</h2>
+            <h2>บริการของเรา</h2>
 
-            <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; text-align: center;">
+            <div class="services">
 
                 <!-- บริการ 1 -->
-                <div style="
-                    width: 350px; 
-                    padding: 20px; 
-                    border: 1px solid #ddd; 
-                    border-radius: 12px;
-                    background-color: #ffffff;
-                ">
-                    <img src="cake.png" alt="เค้กโฮมเมด" style="width: 100%; border-radius: 10px;">
-                    <h3 style="margin-top: 15px;  color: #3a210f ">เค้กโฮมเมด</h3>
-                    <p style="font-size: 15px; color: #453326">เค้กสดใหม่ หอมหวาน ทำจากวัตถุดิบคุณภาพ</p>
+                <div class="card">
+                    <img src="cake.png" alt="เค้กโฮมเมด">
+                    <h3>เค้กโฮมเมด</h3>
+                    <p>เค้กสดใหม่ หอมหวาน ทำจากวัตถุดิบคุณภาพ</p>
                 </div>
 
                 <!-- บริการ 2 -->
-                <div style="
-                    width: 350px; 
-                    padding: 20px; 
-                    border: 1px solid #ddd; 
-                    border-radius: 12px;
-                    background-color: #ffffff;
-                ">
-                    <img src="drink.png" alt="เครื่องดื่มพิเศษ" style="width: 100%; border-radius: 10px;">
-                    <h3 style="margin-top: 15px; color: #3a210f">เครื่องดื่มพิเศษ</h3>
-                    <p style="font-size: 15px; color: #453326">เมนูเครื่องดื่มสดชื่น พร้อมรสชาติที่ลงตัว</p>
+                <div class="card">
+                    <img src="drink.png" alt="เครื่องดื่มพิเศษ">
+                    <h3>เครื่องดื่มพิเศษ</h3>
+                    <p>เมนูเครื่องดื่มสดชื่น พร้อมรสชาติที่ลงตัว</p>
                 </div>
 
                 <!-- บริการ 3 -->
-                <div style="
-                    width: 350px; 
-                    padding: 20px; 
-                    border: 1px solid #ddd; 
-                    border-radius: 12px;
-                    background-color: #ffffff;
-                ">
-                    <img src="gift.png" alt="เซ็ตของขวัญ" style="width: 100%; border-radius: 10px;">
-                    <h3 style="margin-top: 15px; color: #3a210f">เซ็ตของขวัญ</h3>
-                    <p style="font-size: 15px; color: #453326">ของขวัญหวาน ๆ สำหรับทุกโอกาสพิเศษ</p>
+                <div class="card">
+                    <img src="gift.png" alt="เซ็ตของขวัญ">
+                    <h3>เซ็ตของขวัญ</h3>
+                    <p>ของขวัญหวาน ๆ สำหรับทุกโอกาสพิเศษ</p>
                 </div>
 
             </div>
@@ -92,19 +64,13 @@
     </main>
 
     <!-- TODO: สร้าง footer -->
-    <footer style="
-                margin-top: 50px;
-                padding: 15px 20px;
-                background-color: #356360;
-                color: #ffffff;
-                text-align: center;
-            ">
-        <p style="margin: 5px 0;"> © 2025 Sweetie House. All rights reserved.</p>
-            <nav style="text-align: center; margin-top: 30px;">
-                <a href="index.html" style="margin: 0 35px; text-decoration: none; color: #ffffff; font-weight: bold;">หน้าแรก</a>
-                <a href="about.html" style="margin: 0 35px; text-decoration: none; color: #ffffff; font-weight: bold;">เกี่ยวกับเรา</a>
-                <a href="services.html" style="margin: 0 35px; text-decoration: none; color: #ffffff; font-weight: bold;">บริการ</a>
-                <a href="contact.html" style="margin: 0 35px; text-decoration: none; color: #ffffff; font-weight: bold;">ติดต่อ</a>
+    <footer id="footer">
+        <p>© 2025 Sweetie House. All rights reserved.</p>
+            <nav>
+                <a href="index.html">หน้าแรก</a>
+                <a href="about.html">เกี่ยวกับเรา</a>
+                <a href="services.html">บริการ</a>
+                <a href="contact.html">ติดต่อ</a>
             </nav>
     </footer>
 
