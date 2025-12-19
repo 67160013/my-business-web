@@ -13,7 +13,8 @@ my-business-web/
 ├── about.html
 ├── services.html
 ├── contact.html
-├── styles.css
+├── css/
+│   └── styles.css
 ├── README.md
 │
 ├── logo1.png
