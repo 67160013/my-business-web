@@ -7,8 +7,6 @@
 
 ## 📁 โครงสร้างไฟล์ (File Structure)
 
----
-
 my-business-web/
 ├── index.html
 ├── about.html
