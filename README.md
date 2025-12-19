@@ -14,36 +14,29 @@ my-business-web/
 ├── about.html
 ├── services.html
 ├── contact.html
-├── README.md
-│
 ├── css/
 │ └── styles.css
-│
 ├── images/
-│ ├── logo/
-│ │ └── logo1.png
-│ │
-│ ├── home/
-│ │ ├── home.png
-│ │ └── home2.png
-│ │
-│ ├── about/
-│ │ ├── about1.png
-│ │ ├── about2.png
-│ │ └── about3.png
-│ │
-│ ├── services/
-│ │ ├── menu1.png
-│ │ ├── menu2.png
-│ │ ├── menu3.png
-│ │ ├── cake.png
-│ │ ├── drink.png
-│ │ └── gift.png
-│ │
-│ └── team/
+│ ├── logo1.png
+│ ├── home.png
+│ ├── home2.png
+│ ├── about1.png
+│ ├── about2.png
+│ ├── about3.png
+│ ├── menu1.png
+│ ├── menu2.png
+│ ├── menu3.png
+│ ├── cake.png
+│ ├── drink.png
+│ ├── gift.png
 │ ├── team1.png
 │ ├── team2.png
-│ └── team3.png
+│ ├── team3.png
+│ ├── Contact1.png
+│ ├── Contact2.png
+│ ├── Contact3.png
+│ └── Contact4.png
+└── README.md
 
 ---
 
