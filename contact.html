@@ -5,138 +5,72 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Sweetie House</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <header style="background-color: #356360; padding: 20px; text-align: center;">
-        <div>
-            <img src="logo1.png" alt="โลโก้บริษัท" height="300" style="display: block; margin: 0 auto;">
-        </div>
+    <header id="header">        <div>
+            <img src="logo1.png" alt="โลโก้บริษัท" class="logo">
     </header>
-
+    
     <!-- 4.1 มี Contact Form สําหรับป้อนข้อมูล เช่น ชื ่อ, อีเมล, ข้อความติดต่อ เป็นต้น -->
-    <section 
-        style="
-            background-color: #FFE4E1;
-            padding: 30px 20px;
-            text-align: center;
-            margin-top: 20px;
-            color: #902b20;
-        ">
-        <h1 style="font-size: 40px; margin: 15px;">
-            Contact 
-        </h1>
+    <section class="hero">
+        <h1>Contact</h1>
+        <p class="intro">
+            หากมีข้อสงสัยสามารถ
+            <span class="highlight">ติดต่อเราได้ตลอดเวลา</span>
+        </p>
     </section>
 
-    <main>
+    <!-- Navigation -->
+    <nav class="nav-menu">
+        <a href="index.html">หน้าแรก</a>
+        <a href="about.html">เกี่ยวกับเรา</a>
+        <a href="services.html">บริการ</a>
+        <a href="contact.html">ติดต่อ</a>
+    </nav>
+
+    <main class="container">
         <!-- FORM START -->
-        <section id="contact" style="max-width: 700px; margin: 30px auto;">
-
-            <h2 style="text-align: center; color: #8B4513; font-size: 28px; margin-bottom: 20px;">
-                ติดต่อเรา
-            </h2>
-
-            <form action="/contact.html" method="POST"
-                style="
-                    background-color: #FFF5F2;
-                    padding: 25px;
-                    border-radius: 12px;
-                ">
-
+            <h2 class="text-center">ติดต่อเรา</h2>
+            <form class="contact-form">
                 <!-- กล่องข้อมูลติดต่อ -->
-                <fieldset style="
-                    border: 2px solid #F4C2C2;
-                    padding: 20px;
-                    border-radius: 10px;
-                    margin-bottom: 25px;
-                ">
-                    <legend style="
-                        font-weight: bold;
-                        padding: 0 10px;
-                        color: #8B4513;
-                    ">ข้อมูลติดต่อ</legend>
+                <fieldset>
+                    <legend>ข้อมูลติดต่อ</legend>
 
-                    <label for="fname" style="color:#5A2A27;">ชื่อจริง:</label><br>
-                    <input type="text" id="fname" name="firstname" required
-                        style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 8px; border: 1px solid #D2A6A6;" />
+                    <label for="fname">ชื่อจริง:</label><br>
+                    <input type="text" id="fname" name="firstname" required>
 
-                    <label for="lname" style="color:#5A2A27;">นามสกุล:</label><br>
-                    <input type="text" id="lname" name="lastname" required
-                        style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 8px; border: 1px solid #D2A6A6;" />
+                    <label for="lname">นามสกุล:</label><br>
+                    <input type="text" id="lname" name="lastname" required>
 
-                    <label for="email" style="color:#5A2A27;">อีเมล:</label><br>
-                    <input type="email" id="email" name="email" required
-                        style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 8px; border: 1px solid #D2A6A6;" />
+                    <label for="email">อีเมล:</label><br>
+                    <input type="email" id="email" name="email" required>
 
-                    <label style="color:#5A2A27;">เบอร์โทรศัพท์:</label><br>
-                    <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="เช่น 0912345678" required
-                        style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 8px; border: 1px solid #D2A6A6;" />
+                    <label>เบอร์โทรศัพท์:</label><br>
+                    <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="เช่น 0912345678" required>
                 </fieldset>
 
                 <!-- กล่องข้อความ -->
-                <fieldset style="
-                    border: 2px solid #F4C2C2;
-                    padding: 20px;
-                    border-radius: 10px;
-                    margin-bottom: 25px;
-                ">
-                    <legend style="
-                        font-weight: bold;
-                        padding: 0 10px;
-                        color: #8B4513;
-                    ">ข้อความติดต่อเพิ่มเติม</legend>
+                <fieldset>
+                    <legend>ข้อความติดต่อเพิ่มเติม</legend>
 
-                    <textarea id="message" name="message" rows="5"
-                        style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #D2A6A6;"></textarea>
-
-                    <br><br>
+                    <textarea id="message" name="message" rows="5"></textarea>
 
                     <input type="checkbox" id="agree" name="agree" required />
-                    <label for="agree" style="color:#5A2A27;">ฉันยอมรับเงื่อนไข</label>
+                    <label for="agree">ฉันยอมรับเงื่อนไข</label>
                 </fieldset>
 
                 <!-- ปุ่ม -->
-                <div style="text-align: center;">
-                    <button type="submit"
-                        style="
-                            background-color: #F4C2C2;
-                            border: none;
-                            padding: 12px 20px;
-                            border-radius: 10px;
-                            font-size: 16px;
-                            cursor: pointer;
-                            margin-right: 10px;
-                            transition: 0.3s;
-                        "
-                        onmouseover="this.style.backgroundColor='#F4C2C2'"
-                        onmouseout="this.style.backgroundColor='#d19f9f'">
-                        ส่งข้อมูล
-                    </button>
-
-                    <button type="reset"
-                        style="
-                            background-color: #F4C2C2;
-                            border: none;
-                            padding: 12px 20px;
-                            border-radius: 10px;
-                            font-size: 16px;
-                            cursor: pointer;
-                            transition: 0.3s;
-                        "
-                        onmouseover="this.style.backgroundColor='#F4C2C2'"
-                        onmouseout="this.style.backgroundColor='#d19f9f'">
-                        ยกเลิก
-                    </button>
-                </div>
-
+                <div class="text-center">
+                    <button class="btn">ส่งข้อมูล</button>
+                    <button class="btn" type="reset">ยกเลิก</button>
+                </div>          
             </form>
-
-        </section>
-
-        <hr>
+            
         <!-- 4.2 ที่อยู่บริษัท -->
-        <section style="font-size: 18px; max-width: 700px; margin: 30px auto; color: #3a210f">
+        <section class="address">
             <h2>ที่อยู่ของบริษัท</h2>
             <p><strong>Sweetie House</strong></p>
             <p>เจริญพร แมนชั่น ซ.14 ถ.ลงหาดบางแสน ตำบลแสนสุข อำเภอเมืองชลบุรี จังหวัดชลบุรี 20130</p>
@@ -145,41 +79,28 @@
         </section>
 
         <!-- 4.3 แผนที่ Google Maps -->
-        <section style="font-size: 15px; max-width: 700px; margin: 30px auto; color: #3a210f;">
+        <section class="map">            
             <h2>แผนที่ร้าน Sweetie House : เจริญพร แมนชั่น ซ.14 ถ.ลงหาดบางแสน ตำบลแสนสุข อำเภอเมืองชลบุรี จังหวัดชลบุรี 20130</h2>
             <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50270.21913146499!2d100.92786168935375!3d13.283920628572737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d5b3d4516d83b%3A0xe8a83c9d36f1c185!2z4LmA4LiZ4Lil4Liy4LiX4Lij4LiH4Li04LmI4LiE4LmE4LiZ4LiyIOC4muC4tSDguJvguLTguYHguJvgvJHguLLguITguKrguKPguJnguKfguJMg4Lij4Lil4LiXIOC4muC4tSDguJvguLTguYHguJ7guKPguLHguJkg4LiE4LmC4Liy4Lie4Liq4LiZ4Liy4LiZ4LiE4LmM4LiB4Liy4Li54LiiINChv-C4suC4geC4u-C4reC4p-C4siDRgtC10YDQvtCx0LvQu9C0IDM5MzA!5e0!3m2!1sth!2sth!4v1707235000000" 
-                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+                width="100%"
+                height="400"
+                loading="lazy"
+                allowfullscreen>
             </iframe>
-            </section>
+        </section>
 
     </main>
 
     <!-- TODO: สร้าง footer 2.4 -->
-    <footer style="
-                margin-top: 50px;
-                padding: 15px 20px;
-                background-color: #356360;
-                color: #ffffff;
-                text-align: center;
-            ">
-
-        <p style="margin: 5px 0;"> © 2025 Sweetie House. All rights reserved.</p>
-         <a href="index.html" 
-            style="
-                display: inline-block;
-                padding: 12px 25px;
-                background-color: #9f6f49;
-                color: #fff;
-                font-weight: bold;
-                text-decoration: none;
-                border-radius: 10px;
-                transition: 0.3s;
-            "
-            onmouseover="this.style.backgroundColor='#8a4816'"
-            onmouseout="this.style.backgroundColor='#9f6f49'">
-                กลับหน้าแรก
-            </a>   
+    <footer id="footer">
+        <p>© 2025 Sweetie House. All rights reserved.</p>
+            <nav>
+                <a href="index.html">หน้าแรก</a>
+                <a href="about.html">เกี่ยวกับเรา</a>
+                <a href="services.html">บริการ</a>
+                <a href="contact.html">ติดต่อ</a>
+            </nav>
     </footer>
 
 </body>
