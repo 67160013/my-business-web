@@ -7,6 +7,8 @@
 
 ## 📁 โครงสร้างไฟล์ (File Structure)
 
+---
+
 my-business-web/
 ├── index.html
 ├── about.html
@@ -42,6 +44,8 @@ my-business-web/
 │ ├── team1.png
 │ ├── team2.png
 │ └── team3.png
+
+---
 
 ---
 
