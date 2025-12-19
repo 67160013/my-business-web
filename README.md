@@ -13,34 +13,37 @@ my-business-web/
 ├── about.html
 ├── services.html
 ├── contact.html
+│
 ├── css/
 │   └── styles.css
-├── README.md
 │
-├── logo1.png
-├── home.png
-├── home2.png
+├── images/
+│   ├── logo1.png
 │
-├── about1.png
-├── about2.png
-├── about3.png
+│   ├── home.png
+│   ├── home2.png
 │
-├── menu1.png
-├── menu2.png
-├── menu3.png
-├── cake.png
-├── drink.png
-├── gift.png
+│   ├── about1.png
+│   ├── about2.png
+│   ├── about3.png
 │
-├── team1.png
-├── team2.png
-├── team3.png
+│   ├── menu1.png
+│   ├── menu2.png
+│   ├── menu3.png
 │
-├── Contact1.png
-├── Contact2.png
-├── Contact3.png
-└── Contact4.png
-
+│   ├── cake.png
+│   ├── drink.png
+│   ├── gift.png
+│
+│   ├── team1.png
+│   ├── team2.png
+│   └── team3.png
+│
+│   ├── Contact1.png
+│   ├── Contact2.png
+│   ├── Contact3.png
+│   └── Contact4.png
+└─── README.md
 
 
 ```
@@ -87,27 +90,27 @@ my-business-web/
 
 ### ⭐ หน้า Home (index.html)
 
-![Home](home.png)
-![Home](home2.png)
+![Home](images/home.png)
+![Home](images/home2.png)
 
 ### ⭐ หน้า About (about.html)
 
-![About Screenshot](about1.png)
-![About Screenshot](about2.png)
-![About Screenshot](about3.png)
+![About Screenshot](images/about1.png)
+![About Screenshot](images/about2.png)
+![About Screenshot](images/about3.png)
 
 ### ⭐ หน้า Services (services.html)
 
-![Services Screenshot](menu1.png)
-![Services Screenshot](menu2.png)
-![Services Screenshot](menu3.png)
+![Services Screenshot](images/menu1.png)
+![Services Screenshot](images/menu2.png)
+![Services Screenshot](images/menu3.png)
 
 ### ⭐ หน้า Contact (contact.html)
 
-![Contact Screenshot](Contact1.png)
-![Contact Screenshot](Contact2.png)
-![Contact Screenshot](Contact3.png)
-![Contact Screenshot](Contact4.png)
+![Contact Screenshot](images/Contact1.png)
+![Contact Screenshot](images/Contact2.png)
+![Contact Screenshot](images/Contact3.png)
+![Contact Screenshot](images/Contact4.png)
 
 ---
 
