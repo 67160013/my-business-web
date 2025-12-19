@@ -57,7 +57,7 @@ my-business-web/
 
 ### ⭐ หน้า Home (index.html)
 
-![Home]/home.png)
+![Home](home.png)
 
 ### ⭐ หน้า About (about.html)
 
